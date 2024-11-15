@@ -4,6 +4,10 @@ FROM python:3.8.10
 # Log level
 ENV PYTHONUNBUFFERED 1
 
+#API Google 
+
+ENV API_KEY AIzaSyD2C7OANbPonIaqiDPTFVsS8MWQbpQbPqE
+
 # Make working directory
 RUN mkdir /polyteacher
 
